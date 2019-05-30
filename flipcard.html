@@ -1,0 +1,74 @@
+<div class="flip-card">
+  <div class="flip-card-inner">
+    <div class="flip-card-front">
+        <img src="/wp-content/uploads/2018/07/growth-opt-01.png">
+        <p class="heading">High Growth Company</p>
+    </div>
+    <div class="flip-card-back">
+        <p>Who are you?</p>
+        <p><a class="et_pb_button_0 flip-card-button" href="/ceo-high-growth/">CEO</a></p>
+        <p><a class="et_pb_button_0 flip-card-button" href="/vp-sales-high-growth/">VP Sales</a></p>
+        <p><a class="et_pb_button_0 flip-card-button" href="/hr-leader-high-growth/">HR Leader</a></p>
+        <p><a class="et_pb_button_0 flip-card-button" href="/cfo-high-growth/">CFO</a></p>
+    </div>
+  </div>
+</div>
+<style>
+.flip-card {
+  background-color: transparent;
+  width: 220px;
+  height: 300px;
+  perspective: 1000px;
+}
+
+.flip-card-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.6s;
+  transform-style: preserve-3d;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+}
+
+.flip-card:hover .flip-card-inner {
+  transform: rotateY(180deg);
+}
+
+.flip-card-front, .flip-card-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden;
+}
+
+.flip-card-front {
+  background-color: #ececec;
+  color: #2a2a2a;
+}
+
+.flip-card-back {
+  padding-top: 50px;
+  background-color: #ececec;
+  color: black;
+  transform: rotateY(180deg);
+}
+
+.heading {
+    letter-spacing: 1px;
+    font-size: 0.9rem;
+    margin-bottom: 0;
+}
+.flip-card-front img {
+    padding-top: 70px;
+    max-width: 120px;
+    height: auto;
+    box-sizing: border-box;
+}
+.flip-card-button {
+    display: inline-block;
+    width: 200px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+</style>
