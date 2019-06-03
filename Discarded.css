@@ -48,3 +48,26 @@
 #top-menu>li:last-child {
     left: -20px;
 }
+
+
+#top-menu .menu-item-has-children>li:first-child:hover  {
+    color: black;
+    background-color: #ffffff;
+    opacity: 1;
+}
+
+
+/* drop down menu items on hover */
+    .nav ul li a:hover {
+        opacity: 1;
+        color: #000;
+        background-color: #88bae6;}
+
+
+    border-bottom: 1px solid black;
+
+    
+        .nav li:hover a {
+        color: black !important;
+        background-color: white;
+    }
