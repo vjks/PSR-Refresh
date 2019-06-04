@@ -71,3 +71,28 @@
         color: black !important;
         background-color: white;
     }
+
+
+    section.et_pb_module.et_pb_fullwidth_header.et_pb_fullwidth_header_0.et_hover_enabled.et_pb_section_video.et_pb_bg_layout_dark.et_pb_text_align_center {
+    min-height: 50vh;
+    height: 80vh;
+}
+
+/* Center align the text and button on the home page */
+.header-content-container.center {
+    position: relative;
+    transform: translate( 0%, 60%);
+}
+/* Center align the text and button on the home page */
+
+
+/* Move the scroll item up */
+.et_pb_fullwidth_header_scroll {
+    position: relative !important;
+    top: -35%;
+    left: 50% !important;
+    bottom: auto !important;
+    transform: translate(0%, 60%);
+}
+
+2560x1440
